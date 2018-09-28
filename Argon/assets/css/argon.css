@@ -21885,7 +21885,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
 .video-wrapper {
     position: relative;
     padding-bottom: 56,25%;
-    overflow: hidden;
+    overflow: hidden !important;
     width: 100% !important;
     height: 0 !important;
 }
