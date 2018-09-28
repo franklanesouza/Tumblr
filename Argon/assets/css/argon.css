@@ -293,7 +293,7 @@ pre
 
 figure
 {
-    margin: 0 0 1rem;
+    margin: 0 0 100%;
 }
 
 img
@@ -8533,8 +8533,6 @@ button.bg-darker:focus
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video;
-.embed-responsive figure
-
 {
     position: absolute;
     top: 0;
@@ -21884,12 +21882,3 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     height: 3px;
 }
 
-.videostest {
-    position: relative;
-    display: block;
-    overflow: hidden; 
-    width: 100%;
-    padding: 0;
-    border-top-left-radius: calc(.375rem - 1px);
-    border-top-right-radius: calc(.375rem - 1px);
-}
